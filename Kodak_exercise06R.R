@@ -11,9 +11,16 @@ View(iris)
 #from the top of the indicated file. The selected file content should be 
 #printed to the terminal in R.
 Sepal.Length =(iris[,1])
-nrow(Sepal.Length)
+head(Sepal.Length)
+# I can print the lines for the first 7 entries in the Sepal.Length data
+#set I created using the head command:
+head(Sepal.Length, n=7)
+#this can also just be done on the original file 
+head(iris, n=15)
+#and for a particular variable:
+head(iris$Petal.Width, n=9)
+#which gives me the first 9 lines for the petal width column 
 
-  
 
 
 #2a) Print the last 2 rows in the last two column in iris:

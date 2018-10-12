@@ -21,6 +21,9 @@ head(iris, n=15)
 head(iris$Petal.Width, n=9)
 #which gives me the first 9 lines for the petal width column 
 
+### Brittni: We wanted you to recreate the functionality of head without using it. I took off 0.25 points, because you did still assign the variables. What we were looking for was something like:
+## numLines=10
+## iris[1:numLines,]
 
 
 #2a) Print the last 2 rows in the last two column in iris:
